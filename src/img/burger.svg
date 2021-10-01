@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>nav/burger/black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="search-icon-white" sketch:type="MSLayerGroup" transform="translate(0.000000, -11.000000)" stroke-width="2" stroke="#FFFFFF">
+            <g id="Symbols" sketch:type="MSShapeGroup">
+                <g id="nav/burger/black">
+                    <path d="M20.4852815,42.4852814 L3.51471871,25.5147186" id="Line" transform="translate(12.000000, 34.000000) rotate(135.000000) translate(-12.000000, -34.000000) "></path>
+                    <path d="M22.2426407,28.2426407 L13.7573593,19.7573593" id="Line" transform="translate(18.000000, 24.000000) rotate(135.000000) translate(-18.000000, -24.000000) "></path>
+                    <path d="M10.2426408,26.2426407 L1.75735939,17.7573593" id="Line" transform="translate(6.000000, 22.000000) rotate(135.000000) translate(-6.000000, -22.000000) "></path>
+                    <path d="M20.4852815,20.4852814 L3.51471871,3.51471863" id="Line" transform="translate(12.000000, 12.000000) rotate(135.000000) translate(-12.000000, -12.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
