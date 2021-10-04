@@ -17,7 +17,7 @@ module.exports = {
                     DEFAULT: '0.5rem',
                     md: '2rem'
                 }
-            }
+            },
         },
     },
     variants: {
