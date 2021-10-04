@@ -1,10 +1,9 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import burger from "../img/burger.svg";
-import circleArrowRight from "../img/circle-arrow-right.svg";
+
+import Icon from "../components/icon";
 import logoWhite from "../img/logo-white.svg";
-import close from "../img/x.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,8 +41,8 @@ const Navbar = class extends React.Component {
             onClick={() => this.toggleSmNav()}
           >
             {this.state.active
-              ? <img src={close} alt="Close Menu"/>
-              : <img src={burger} alt="Open Menu"/>
+              ? <Icon name="multiply"/>
+              : <Icon name="burger" />
             }
           </div>
           <div id="navMenu" className="navbar-menu hidden md:block">
@@ -57,23 +56,23 @@ const Navbar = class extends React.Component {
         <div id="smNavMenu" className={`navbar-menu container ${this.state.active ? "block" : "hidden"} md:hidden`}>
           <Link className="block text-3xl my-7 flex items-center justify-between" to="/about">
             <span>About</span>
-            <img src={circleArrowRight} className="w-12 h-12" alt="About"/>
+            <Icon name="arrow-right-circle" className="w-12 h-12"/>
           </Link>
           <Link className="block text-3xl my-7 flex items-center justify-between" to="/products">
             <span>Products</span>
-            <img src={circleArrowRight} className="w-12 h-12" alt="Products"/>
+            <Icon name="arrow-right-circle" className="w-12 h-12"/>
           </Link>
           <Link className="block text-3xl my-7 flex items-center justify-between" to="/blog">
             <span>Blog</span>
-            <img src={circleArrowRight} className="w-12 h-12" alt="Blog"/>
+            <Icon name="arrow-right-circle" className="w-12 h-12"/>
           </Link>
           <Link className="block text-3xl my-7 flex items-center justify-between" to="/contact">
             <span>Contact</span>
-            <img src={circleArrowRight} className="w-12 h-12" alt="Contact"/>
+            <Icon name="arrow-right-circle" className="w-12 h-12"/>
           </Link>
           <Link className="block text-3xl my-7 flex items-center justify-between" to="/contact/examples">
             <span>Form Examples</span>
-            <img src={circleArrowRight} className="w-12 h-12" alt="Form Examples"/>
+            <Icon name="arrow-right-circle" className="w-12 h-12"/>
           </Link>
         </div>
       </nav>

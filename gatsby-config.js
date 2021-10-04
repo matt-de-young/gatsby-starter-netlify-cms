@@ -59,6 +59,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-typescript',
     'gatsby-plugin-postcss',
     {
       resolve: "gatsby-plugin-netlify-cms",
