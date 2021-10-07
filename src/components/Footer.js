@@ -6,7 +6,7 @@ import logoWhite from "../img/logo-white.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer text-white mt-6">
+      <footer className="footer text-white mt-auto pt-6">
         <div className="container flex items-center justify-between py-5 md:py-7">
           <div className="md:max-w-xs">
             <Link to="/" className="block w-28 md:w-48 pb-6" title="Logo">

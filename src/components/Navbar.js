@@ -26,7 +26,7 @@ const Navbar = class extends React.Component {
       <nav
         role="navigation"
         aria-label="main-navigation"
-        className="text-white"
+        className={`absolute left-0 right-0 z-10 text-white ${this.state.active ? "bg-black" : "bg-transparent"}`}
       >
         <div className="container flex items-center justify-between py-5 md:py-7">
           <Link to="/" className="block w-28 md:w-48" title="Logo">

@@ -8,19 +8,32 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
 
   if (!!image && !!image.childImageSharp) {
     return (
-      <GatsbyImage
-        image={image.childImageSharp.gatsbyImageData}
-        style={imageStyle}
-        alt={alt} />
+      <div>
+        <h3>image.childImageSharp.gatsbyImageData</h3>
+        <GatsbyImage
+          image={image.childImageSharp.gatsbyImageData}
+          style={imageStyle}
+          alt={alt} />
+      </div>
     );
   }
 
   if (!!childImageSharp) {
-    return <GatsbyImage image={childImageSharp.gatsbyImageData} style={imageStyle} alt={alt} />;
+    return (
+      <div>
+        <h3>childImageSharp.gatsbyImageData</h3>
+        <GatsbyImage image={childImageSharp.gatsbyImageData} style={imageStyle} alt={alt} />
+      </div>
+    );
   }
 
   if (!!image && typeof image === "string")
-    return <img style={imageStyle} src={image} alt={alt} />;
+    return (
+      <div>
+        <h3>image</h3>
+        <img style={imageStyle} src={image} alt={alt} />
+      </div>
+    );
 
   return null;
 };
